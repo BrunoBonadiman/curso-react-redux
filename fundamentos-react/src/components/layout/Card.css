@@ -1,0 +1,27 @@
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border: 2px solid;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    min-width: 500px;
+    max-width: 500px;
+}
+
+.card .title {
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.card .content {
+    background-color: #fff;
+    color: black;
+    padding: 10px;
+    flex: 1;
+}
