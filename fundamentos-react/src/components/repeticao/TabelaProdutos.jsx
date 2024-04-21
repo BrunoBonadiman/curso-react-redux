@@ -6,7 +6,7 @@ export default () => {
   function getLinhas() {
     return produtos.map((x, i) => {
       return (
-        <tr key={x.id} className={i % 2 == 0 ? 'Par' : 'Impar'}>
+        <tr key={x.id} className={i % 2 === 0 ? 'Par' : 'Impar'}>
           <td>{x.id}</td>
           <td>{x.descricao}</td>
           <td>R${x.precoVenda.toFixed(2).replace(".", ",")}</td>
